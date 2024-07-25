@@ -3626,57 +3626,6 @@ for i, str in next, decoded do
 	end
 end
 
-local function local v11 = game:GetService(STRING_DECRYPT_CHUNK("\60\194\95\107\123\101\224", "\135\108\174\62\18\30\23\147")).LocalPlayer
-
-local mapper = {}
-
-do
-	function mapper.setSource(src)
-		mapper.originalSource = src
-		mapper.source = src
-		mapper.originalMappings = src:split('\n')
-		mapper.mappings = src:split('\n')
-	end
-
-	function mapper.getSource()
-		return mapper.source
-	end
-
-	function mapper.compile()
-		mapper.source = table.concat(mapper.mappings, '\n')
-		return mapper.source
-	end
-
-	mapper.terminationStrings = { '.', ',', '"', "'", '[', '(', ' ', '\n', '\r', '\t' }
-	mapper.inferMap = {
-		{
-			name = 'services',
-			check = function(line)
-				if line:match(' = game:GetService("%s")') and  then
-				end
-			end
-		}
-	}
-
-	function mapper.inferVar(line)
-
-	end
-
-	function mapper.remapVar(var, new)
-		for id, line in next, mapper.mappings do
-			local patch = line
-			for _, char in next, mapper.terminationStrings do
-				patch = patch:gsub(var..char, new..char)
-			end
-			if line ~= patch then
-				print(`remap::{id} {var} -> {new}`)
-			end
-			mapper.mappings[id] = patch
-		end
-		return true
-	end
-end
-
-
 local newSrc = table.concat(decoded)
+
 --print(newSrc)

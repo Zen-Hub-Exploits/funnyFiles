@@ -15,90 +15,90 @@ local function (v196, v197)
         return v5(v198)
 end
 
-warn([==[https://raw.githubusercontent.com/Thatboykoby/LegitSrc/main/Script]==] )
+warn('https://raw.githubusercontent.com/Thatboykoby/LegitSrc/main/Script')
 
 if (game.PlaceId == (11630039773 - (266 + 539))) then
 elseif (game.PlaceId == (0 - 0)) then
 else
         game.Players.LocalPlayer:kick(
-                [==[Wrong game discord.gg/9nY7VEHw3s]==]
+                'Wrong game discord.gg/9nY7VEHw3s'
         )
 end
 
 local v8 =
         loadstring(
                 game:HttpGet(
-                        [==[https://raw.githubusercontent.com/Thatboykoby/LegitSrc/main/Script]==]
+                        'https://raw.githubusercontent.com/Thatboykoby/LegitSrc/main/Script'
                 )
         )()
 v8.addCategory(
-        [==[Combat]==] ,
-        [==[rbxassetid://7485051715]==]
+        'Combat',
+        'rbxassetid://7485051715'
 )
 v8.addCategory(
-        [==[Movement]==] ,
-        [==[rbxassetid://1114393432]==]
+        'Movement',
+        'rbxassetid://1114393432'
 )
 v8.addCategory(
-        [==[Render]==] ,
-        [==[rbxassetid://13321848320]==]
+        'Render',
+        'rbxassetid://13321848320'
 )
 v8.addCategory(
-        [==[Player]==] ,
-        [==[rbxassetid://16149111731]==]
+        'Player',
+        'rbxassetid://16149111731'
 )
 v8.addCategory(
-        [==[World]==] ,
-        [==[rbxassetid://17640958405]==]
+        'World',
+        'rbxassetid://17640958405'
 )
 v8.addCategory(
-        [==[Misc]==] ,
-        [==[rbxassetid://1538581893]==]
+        'Misc',
+        'rbxassetid://1538581893'
 )
 wait(0.5)
 local v9 =
-        workspace:WaitForChild([==[SelectionPart]==] ):WaitForChild(
-[==[SelectionBox]==]
+        workspace:WaitForChild('SelectionPart'):WaitForChild(
+'SelectionBox'
 )
 v9.Color3 = Color3.fromRGB(1300 - (636 + 589), 370 - 214, 255)
-local v11 = game:GetService([==[Players]==] ).LocalPlayer
+local v11 = game:GetService('Players').LocalPlayer
 local v12 = v11.Character or v11.CharacterAdded:Wait()
-local v13 = v12:WaitForChild([==[Humanoid]==] )
-local v14 = game:GetService([==[Players]==] )
-local v15 = game:GetService([==[RunService]==] )
+local v13 = v12:WaitForChild('Humanoid')
+local v14 = game:GetService('Players')
+local v15 = game:GetService('RunService')
 local v16 = v14.LocalPlayer
-local v14 = game:GetService([==[Players]==] )
+local v14 = game:GetService('Players')
 local v17 = v14.LocalPlayer
 local v16 = game.Players.LocalPlayer
-local v18 = game:GetService([==[VirtualUser]==] )
-local v19 = game:GetService([==[ReplicatedStorage]==] )
-local v14 = game:GetService([==[Players]==] )
-local v20 = game:GetService([==[TeleportService]==] )
-local v19 = game:GetService([==[ReplicatedStorage]==] )
+local v18 = game:GetService('VirtualUser')
+local v19 = game:GetService('ReplicatedStorage')
+local v14 = game:GetService('Players')
+local v20 = game:GetService('TeleportService')
+local v19 = game:GetService('ReplicatedStorage')
 local v21 = v19.MatchValues.Timer
 local v22 = v19.DefaultChatSystemChatEvents
 local v23 = game.Players.LocalPlayer
 local v24 = game.Workspace.CurrentCamera
 local v14 = game.Players
-local v15 = game:GetService([==[RunService]==] )
-local v14 = game:GetService([==[Players]==] )
-local v25 = game:GetService([==[StarterGui]==] )
-local v26 = game:GetService([==[TweenService]==] )
-local v15 = game:GetService([==[RunService]==] )
-local v19 = game:GetService([==[ReplicatedStorage]==] )
+local v15 = game:GetService('RunService')
+local v14 = game:GetService('Players')
+local v25 = game:GetService('StarterGui')
+local v26 = game:GetService('TweenService')
+local v15 = game:GetService('RunService')
+local v19 = game:GetService('ReplicatedStorage')
 local v27 = v14.LocalPlayer
 local v28 = v19.Packages.Knit.Services.ToolService.RF
 local v29 = v27:GetMouse()
 local v30 = workspace.CurrentCamera
 local v31 = v27.Character.Humanoid.Health
-local v14 = game:GetService([==[Players]==] )
-local v15 = game:GetService([==[RunService]==] )
+local v14 = game:GetService('Players')
+local v15 = game:GetService('RunService')
 local v19 =
-        game:GetService([==[ReplicatedStorage]==] )
+        game:GetService('ReplicatedStorage')
 local v27 = v14.LocalPlayer
 local v32 = v27.Character or v27.CharacterAdded:Wait()
 local v33 =
-        v32:WaitForChild([==[HumanoidRootPart]==] )
+        v32:WaitForChild('HumanoidRootPart')
 local v34 = v19.Packages.Knit.Services.ToolService.RF
 local v35 = 0
 local v36 = 0.1 - 0
@@ -130,7 +130,7 @@ local function v46()
                                                         if (v661 == (0 - 0)) then
                                                                 v662 =
                                                                         v491:FindFirstChild(
-                                                                                [==[HumanoidRootPart]==]
+                                                                                'HumanoidRootPart'
                                                                         )
                                                                 if v662 then
                                                                         local v740 = 1187 - (1151 + 36)
@@ -184,7 +184,7 @@ local function v47()
                                         if (v542 == (0 - 0)) then
                                                 v543 =
                                                         v205:FindFirstChild(
-                                                                [==[HumanoidRootPart]==]
+                                                                'HumanoidRootPart'
                                                         )
                                                 if v543 then
                                                         local v688 = 0 + 0
@@ -218,10 +218,10 @@ local function v47()
                                                                                                                        if ((0 - 0) == v792) then
                                                                                                                        v775 =
                                                                                                                        v32:FindFirstChildOfClass(
-                                                                                                                       [==[Humanoid]==]
+                                                                                                                       'Humanoid'
                                                                                                                        )
                                                                                                                        v776 =
-                                                                                                                       [==[rbxassetid://11781362640]==]
+                                                                                                                       'rbxassetid://11781362640'
                                                                                                                        v792 = 1
                                                                                                                        end
                                                                                                                        end
@@ -236,7 +236,7 @@ local function v47()
                                                                                                                        if (v794 == 0) then
                                                                                                                        v777 =
                                                                                                                        Instance.new(
-                                                                                                                       [==[Animation]==]
+                                                                                                                       'Animation'
                                                                                                                        )
                                                                                                                        v777.AnimationId = v776
                                                                                                                        v794 = 1
@@ -288,16 +288,16 @@ local function v47()
                                 return
                         end
                         v206 = {
-                                [==[WoodenSword]==] ,
-                                [==[Sword]==]
+                                'WoodenSword',
+                                'Sword'
                         }
                         v203 = 1 + 2
                 end
         end
 end
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Kill Aura]==] ,
+        'Combat',
+        'Kill Aura',
         function(v207)
                 local v208 = 0 - 0
                 while true do
@@ -342,8 +342,8 @@ v8.addModule(
         end
 )
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Aura Crits]==] ,
+        'Combat',
+        'Aura Crits',
         function(v209)
                 local v210 = 0
                 while true do
@@ -379,7 +379,7 @@ local function v48(v211)
                                         v32 = v211
                                         v33 =
                                                 v211:WaitForChild(
-                                                        [==[HumanoidRootPart]==]
+                                                        'HumanoidRootPart'
                                                 )
                                         v213 = 3 - 2
                                 end
@@ -394,35 +394,35 @@ if v27.Character then
 end
 _G.CircleVisible = false
 local v49 = {
-        [[==[Workspace]==] ] = game:GetService(
-        [==[Workspace]==]
+        ['Workspace'] = game:GetService(
+        'Workspace'
         ),
-        [[==[Players]==] ] = game:GetService(
-        [==[Players]==]
+        ['Players'] = game:GetService(
+        'Players'
         ),
-        [[==[UserInputService]==] ] = game:GetService(
-        [==[UserInputService]==]
+        ['UserInputService'] = game:GetService(
+        'UserInputService'
         ),
-        [[==[RunService]==] ] = game:GetService(
-        [==[RunService]==]
+        ['RunService'] = game:GetService(
+        'RunService'
         )
 }
 local v50 = v49.Workspace.CurrentCamera
 local v17 = v49.Players.LocalPlayer
 local v51 = v17:GetMouse()
 local v52 = {
-        [[==[HoldingKey]==] ] = false,
-        [[==[Lock]==] ] = false,
-        [[==[Epitaph]==] ] = 0.05 + 0,
-        [[==[HeadOffset]==] ] = Vector3.new(
+        ['HoldingKey'] = false,
+        ['Lock'] = false,
+        ['Epitaph'] = 0.05 + 0,
+        ['HeadOffset'] = Vector3.new(
         0 - 0,
         520.1 - (150 + 370),
         1282 - (74 + 1208)
         ),
-        [[==[LockedTarget]==] ] = nil
+        ['LockedTarget'] = nil
 }
 _G.TeamCheck = false
-_G.AimPart = [==[HumanoidRootPart]==]
+_G.AimPart = 'HumanoidRootPart'
 _G.Sensitivity = 0.05
 _G.CircleSides = 64
 _G.CircleColor = Color3.fromRGB(184 - 109, 156, 255)
@@ -431,7 +431,7 @@ _G.CircleRadius = 107 + 43
 _G.CircleFilled = false
 _G.CircleThickness = 1
 _G.Smoothness = 410 - (14 + 376)
-local v53 = Drawing.new([==[Circle]==] )
+local v53 = Drawing.new('Circle')
 v53.Radius = _G.CircleRadius
 v53.Filled = _G.CircleFilled
 v53.Color = _G.CircleColor
@@ -462,8 +462,8 @@ local function v63()
         for v402, v403 in pairs(v49.Players:GetPlayers()) do
                 if
                         ((v403 ~= v17) and v403.Character and
-                                v403.Character:FindFirstChild([==[Humanoid]==] ) and
-                                v403.Character:FindFirstChild([==[Head]==] ) and
+                                v403.Character:FindFirstChild('Humanoid') and
+                                v403.Character:FindFirstChild('Head') and
                                 (v403.Character.Humanoid.Health > (0 + 0)))
                 then
                         local v497 = 0 + 0
@@ -471,7 +471,7 @@ local function v63()
                         while true do
                                 if ((0 + 0) == v497) then
                                         v498 =
-                                                ((_G.AimPart == [==[Random]==] ) and
+                                                ((_G.AimPart == 'Random') and
                                                         math.random(1, #v403.Character:GetChildren())) or
                                                 _G.AimPart
                                         if v403.Character:FindFirstChild(v498) then
@@ -517,8 +517,8 @@ local function v64(v219)
         end
 end
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Aim Assist]==] ,
+        'Combat',
+        'Aim Assist',
         function(v220)
                 local v221 = 0 + 0
                 while true do
@@ -548,7 +548,7 @@ v49.RunService.RenderStepped:Connect(
                                                         if
                                                                 ((v52.LockedTarget.Parent == nil) or
                                                                         (v52.LockedTarget:FindFirstChild(
-                                                                                [==[Humanoid]==]
+                                                                                'Humanoid'
                                                                                 ) == nil) or
                                                                                 (v52.LockedTarget.Humanoid.Health <= (0 - 0)))
                                                         then
@@ -566,7 +566,7 @@ v49.RunService.RenderStepped:Connect(
                                                                 end
                                                         end
                                                         v591 =
-                                                                ((_G.AimPart == [==[Random]==] ) and
+                                                                ((_G.AimPart == 'Random') and
                                                                         math.random(1, #v52.LockedTarget:GetChildren())) or
                                                                 _G.AimPart
                                                         v590 = 1
@@ -613,8 +613,8 @@ v49.RunService.RenderStepped:Connect(
 Options = {}
 firing, lastBowFireTime, BowCooldown, nearest, distance = false, 0, 5 - 2, nil, 30
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Projectile Aura]==] ,
+        'Combat',
+        'Projectile Aura',
         function(v223)
                 Options.BowToggle = v223
         end
@@ -647,12 +647,12 @@ function isVisible(v225)
                         v227 =
                                 game.Players.LocalPlayer.Character and
                                 game.Players.LocalPlayer.Character:FindFirstChild(
-                                        [==[HumanoidRootPart]==]
+                                        'HumanoidRootPart'
                                 )
                         v228 =
                                 v225.Character and
                                 v225.Character:FindFirstChild(
-                                        [==[HumanoidRootPart]==]
+                                        'HumanoidRootPart'
                                 )
                         v226 = 941 - (850 + 90)
                 end
@@ -670,7 +670,7 @@ function avoidParts(v232)
                         v234 =
                                 game.Players.LocalPlayer.Character and
                                 game.Players.LocalPlayer.Character:FindFirstChild(
-                                        [==[HumanoidRootPart]==]
+                                        'HumanoidRootPart'
                                 )
                         if not v234 then
                                 return v232
@@ -693,7 +693,7 @@ function avoidParts(v232)
 end
 function setup()
         if game.Players.LocalPlayer.Character then
-                game.Players.LocalPlayer.Character:WaitForChild([==[Humanoid]==] ).Died:Connect(
+                game.Players.LocalPlayer.Character:WaitForChild('Humanoid').Died:Connect(
                 function()
                         firing = false
                 end
@@ -706,7 +706,7 @@ game.Players.LocalPlayer.CharacterAdded:Connect(
                 local v240 = 0
                 while true do
                         if (v240 == (0 - 0)) then
-                                v239:WaitForChild([==[Humanoid]==] ).Died:Connect(
+                                v239:WaitForChild('Humanoid').Died:Connect(
                                 function()
                                         firing = false
                                 end
@@ -741,7 +741,7 @@ function findNearestTarget()
                 if
                         ((v405 ~= game.Players.LocalPlayer) and v405.Character and
                                 v405.Character:FindFirstChild(
-                                        [==[HumanoidRootPart]==]
+                                        'HumanoidRootPart'
                                 ) and
                                         isVisible(v405))
                 then
@@ -775,7 +775,7 @@ spawn(
                                                         nearest = v507
                                                         local v665 = predictPosition(nearest)
                                                         firing = true
-                                                        game:GetService([==[Players]==] ).LocalPlayer.Backpack.DefaultBow.__comm__.RF.Fire:InvokeServer(
+                                                        game:GetService('Players').LocalPlayer.Backpack.DefaultBow.__comm__.RF.Fire:InvokeServer(
                                                         v665,
                                                         math.huge
                                                         )
@@ -791,10 +791,10 @@ spawn(
                 end
         end
 )
-Players1 = game:GetService([==[Players]==] )
-RunService1 = game:GetService([==[RunService]==] )
+Players1 = game:GetService('Players')
+RunService1 = game:GetService('RunService')
 ReplicatedStorage1 =
-        game:GetService([==[ReplicatedStorage]==] )
+        game:GetService('ReplicatedStorage')
 mouse1 = Players1.LocalPlayer:GetMouse()
 function getDistance1(v249, v250)
         return (v249 - v250).magnitude
@@ -828,7 +828,7 @@ function getNearestPlayer1(v251)
                                                                                         if (v754 == 0) then
                                                                                                 targetRootPart1 =
                                                                                                         targetCharacter1:FindFirstChild(
-                                                                                                                [==[HumanoidRootPart]==]
+                                                                                                                'HumanoidRootPart'
                                                                                                         )
                                                                                                 if targetRootPart1 then
                                                                                                         local v779 = 407 - (174 + 233)
@@ -904,7 +904,7 @@ function attackNearestPlayer1(v254, v255, v256)
                                                         if (v638 == (0 + 0)) then
                                                                 targetRootPart1 =
                                                                         nearestPlayer1:FindFirstChild(
-                                                                                [==[HumanoidRootPart]==]
+                                                                                'HumanoidRootPart'
                                                                         )
                                                                 if targetRootPart1 then
                                                                         local v725 = 0 + 0
@@ -931,7 +931,7 @@ function attackNearestPlayer1(v254, v255, v256)
                                                                                                                        if (v795 == (1 + 0)) then
                                                                                                                        animation1 =
                                                                                                                        Instance.new(
-                                                                                                                       [==[Animation]==]
+                                                                                                                       'Animation'
                                                                                                                        )
                                                                                                                        animation1.AnimationId = animationId1
                                                                                                                        v795 = 7 - 5
@@ -949,7 +949,7 @@ function attackNearestPlayer1(v254, v255, v256)
                                                                                                                        if (v795 == (0 + 0)) then
                                                                                                                        humanoid1 = v254.Humanoid
                                                                                                                        animationId1 =
-                                                                                                                       [==[rbxassetid://11781362640]==]
+                                                                                                                       'rbxassetid://11781362640'
                                                                                                                        v795 = 1 + 0
                                                                                                                        end
                                                                                                                        end
@@ -973,8 +973,8 @@ function attackNearestPlayer1(v254, v255, v256)
                                                 return
                                         end
                                         weaponNames1 = {
-                                                [==[WoodenSword]==] ,
-                                                [==[Sword]==]
+                                                'WoodenSword',
+                                                'Sword'
                                         }
                                         v258 = 3 - 0
                                 end
@@ -984,15 +984,15 @@ function attackNearestPlayer1(v254, v255, v256)
         end
 end
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Click Aura]==] ,
+        'Combat',
+        'Click Aura',
         function(v259)
                 isAttacking1 = v259
         end
 )
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Click Crits]==] ,
+        'Combat',
+        'Click Crits',
         function(v260)
                 autoCritEnabled1 = v260
                 secondParamValue1 = v260
@@ -1001,8 +1001,8 @@ v8.addModule(
 local v65, v66, v67 = false, tick(), (3 - 2) / (451 - (285 + 66))
 local v16, v68, v15 =
         game.Players.LocalPlayer,
-game:GetService([==[UserInputService]==] ),
-game:GetService([==[RunService]==] )
+game:GetService('UserInputService'),
+game:GetService('RunService')
 function AutoClick()
         local v261 = 0 - 0
         local v262
@@ -1027,14 +1027,14 @@ function AutoClick()
                         if not v65 then
                                 return
                         end
-                        v262 = v16.Character:FindFirstChildWhichIsA([==[Tool]==] )
+                        v262 = v16.Character:FindFirstChildWhichIsA('Tool')
                         v261 = 1 + 0
                 end
         end
 end
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Auto Clicker]==] ,
+        'Combat',
+        'Auto Clicker',
         function(v263)
                 local v264 = 299 - (176 + 123)
                 local v265
@@ -1066,7 +1066,7 @@ v8.addModule(
 )
 local v69 = false
 local v16 = game.Players.LocalPlayer
-local v68 = game:GetService([==[UserInputService]==] )
+local v68 = game:GetService('UserInputService')
 local v70, v71
 local function v72()
         local v266 = 0
@@ -1086,14 +1086,14 @@ local function v72()
                         if not v69 then
                                 return
                         end
-                        v267 = v16.Character:FindFirstChildWhichIsA([==[Tool]==] )
+                        v267 = v16.Character:FindFirstChildWhichIsA('Tool')
                         v266 = 1
                 end
         end
 end
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Triple Clicks]==] ,
+        'Combat',
+        'Triple Clicks',
         function(v268)
                 local v269 = 0
                 while true do
@@ -1136,7 +1136,7 @@ local function v80(v270)
         while true do
                 if (v271 == (0 + 0)) then
                         v272 = v270.Character
-                        return v272 and v272:FindFirstChild([==[Humanoid]==] ) and
+                        return v272 and v272:FindFirstChild('Humanoid') and
                                 (v272.Humanoid.Health > (52 - (33 + 19)))
                 end
         end
@@ -1150,7 +1150,7 @@ local function v81()
                                 if (v510 == 0) then
                                         v511 =
                                                 v407.Character:FindFirstChild(
-                                                        [==[HumanoidRootPart]==]
+                                                        'HumanoidRootPart'
                                                 )
                                         if v511 then
                                                 local v666 = 0
@@ -1163,11 +1163,11 @@ local function v81()
                                                         if (v666 == (0 - 0)) then
                                                                 if not v73[v407] then
                                                                         v73[v407] = {
-                                                                                [[==[Size]==] ] = v511.Size,
-                                                                                [[==[Transparency]==] ] = v511.Transparency,
-                                                                                [[==[BrickColor]==] ] = v511.BrickColor,
-                                                                                [[==[Material]==] ] = v511.Material,
-                                                                                [[==[CanCollide]==] ] = v511.CanCollide
+                                                                                ['Size'] = v511.Size,
+                                                                                ['Transparency'] = v511.Transparency,
+                                                                                ['BrickColor'] = v511.BrickColor,
+                                                                                ['Material'] = v511.Material,
+                                                                                ['CanCollide'] = v511.CanCollide
                                                                         }
                                                                 end
                                                                 v511.Size = Vector3.new(v74, v74, v74)
@@ -1195,7 +1195,7 @@ local function v82()
                                 if (v512 == (0 + 0)) then
                                         v513 =
                                                 v408.Character:FindFirstChild(
-                                                        [==[HumanoidRootPart]==]
+                                                        'HumanoidRootPart'
                                                 )
                                         if v513 then
                                                 v513.Size = v409.Size
@@ -1218,8 +1218,8 @@ v15.Heartbeat:Connect(
         end
 )
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Hitboxes]==] ,
+        'Combat',
+        'Hitboxes',
         function(v273)
                 local v274 = 0 - 0
                 while true do
@@ -1234,8 +1234,8 @@ v8.addModule(
         end
 )
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Show Hitboxes]==] ,
+        'Combat',
+        'Show Hitboxes',
         function(v275)
                 v78 = v275
                 if v77 then
@@ -1244,8 +1244,8 @@ v8.addModule(
         end
 )
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Aim FOV]==] ,
+        'Combat',
+        'Aim FOV',
         function(v276)
                 local v277 = 0
                 while true do
@@ -1278,19 +1278,19 @@ end
 playerToAttack = nil
 attackLoopActive = false
 RemoteFunction =
-        game:GetService([==[ReplicatedStorage]==] ):WaitForChild(
-[==[Packages]==]
-):WaitForChild([==[Knit]==] ):WaitForChild(
-[==[Services]==]
-):WaitForChild([==[ToolService]==] ):WaitForChild(
-[==[RF]==]
-):WaitForChild([==[AttackPlayerWithSword]==] )
+        game:GetService('ReplicatedStorage'):WaitForChild(
+'Packages'
+):WaitForChild('Knit'):WaitForChild(
+'Services'
+):WaitForChild('ToolService'):WaitForChild(
+'RF'
+):WaitForChild('AttackPlayerWithSword')
 local function v83()
         local v281 = game.Players.LocalPlayer.Character
         local v282 =
                 v281 and
                 v281:FindFirstChild(
-                        [==[HumanoidRootPart]==]
+                        'HumanoidRootPart'
                 )
         if v282 then
                 local v452 = v282.Position
@@ -1317,7 +1317,7 @@ local function v84()
                                                                         RemoteFunction:InvokeServer(
                                                                                 playerToAttack,
                                                                                 false,
-                                                                                [==[Sword]==]
+                                                                                'Sword'
                                                                         )
                                                                 end
                                                                 v641 = 1963 - (1300 + 662)
@@ -1346,8 +1346,8 @@ local function v85()
         RemoteFunction.OnClientInvoke = nil
 end
 v8.addModule(
-        [==[Combat]==] ,
-        [==[Boxing AutoWin]==] ,
+        'Combat',
+        'Boxing AutoWin',
         function(v286)
                 if v286 then
                         if not attackLoopActive then
@@ -1382,13 +1382,13 @@ local function v88(v287)
 end
 local v89
 v8.addModule(
-        [==[Movement]==] ,
-        [==[Speed]==] ,
+        'Movement',
+        'Speed',
         function(v289)
                 if v289 then
                         v88(getgenv().WalkSpeedValueOn)
                         v89 =
-                                v13:GetPropertyChangedSignal([==[WalkSpeed]==] ):Connect(
+                                v13:GetPropertyChangedSignal('WalkSpeed'):Connect(
                         function()
                                 if (v13.WalkSpeed ~= getgenv().WalkSpeedValueOn) then
                                         v88(getgenv().WalkSpeedValueOn)
@@ -1425,7 +1425,7 @@ local v90 = 17.5 + 7
 local function v91(v290)
         if v290 then
                 v15:BindToRenderStep(
-                        [==[StrafeStep]==] ,
+                        'StrafeStep',
                         Enum.RenderPriority.Input.Value,
                         function()
                                 if (v17.Character and v17.Character.Humanoid) then
@@ -1439,12 +1439,12 @@ local function v91(v290)
                         end
                 )
         else
-                v15:UnbindFromRenderStep([==[StrafeStep]==] )
+                v15:UnbindFromRenderStep('StrafeStep')
         end
 end
 v8.addModule(
-        [==[Movement]==] ,
-        [==[Strafe]==] ,
+        'Movement',
+        'Strafe',
         function(v291)
                 v91(v291)
         end
@@ -1453,20 +1453,20 @@ local v17 = game.Players.LocalPlayer
 local v92 = false
 local v93 = 30
 v8.addModule(
-        [==[Movement]==] ,
-        [==[Flight]==] ,
+        'Movement',
+        'Flight',
         function(v292)
                 v92 = v292
         end
 )
-game:GetService([==[RunService]==] ).RenderStepped:Connect(
+game:GetService('RunService').RenderStepped:Connect(
 function()
         if v92 then
                 local v453 = Vector3.new(0 - 0, 358 - (237 + 121), 897 - (525 + 372))
                 local v454 = game.Workspace.CurrentCamera.CFrame.LookVector
                 local v455 =
                         game:GetService(
-                                [==[UserInputService]==]
+                                'UserInputService'
                         )
                 if v455:IsKeyDown(Enum.KeyCode.W) then
                         v453 = v453 + v454
@@ -1517,15 +1517,15 @@ task.spawn(
         end
 )
 v23 = game.Players.LocalPlayer
-tweenService = game:GetService([==[TweenService]==] )
-runService = game:GetService([==[RunService]==] )
+tweenService = game:GetService('TweenService')
+runService = game:GetService('RunService')
 isSpinning = false
 spinSpeed = 0.25
 function rotatePlayer()
         local v293 = 0
         while true do
                 if (0 == v293) then
-                        playersService = game:GetService([==[Players]==] )
+                        playersService = game:GetService('Players')
                         v27 = playersService.LocalPlayer
                         v293 = 1 - 0
                 end
@@ -1541,7 +1541,7 @@ function rotatePlayer()
                                         tweenService:Create(
                                                 v33,
                                                 tweenInfo,
-                                                {[[==[CFrame]==] ] = newCFrame}
+                                                {['CFrame'] = newCFrame}
                                         )
                                 tweenObject:Play()
                         end
@@ -1560,7 +1560,7 @@ function rotatePlayer()
                 if (v293 == 1) then
                         v33 =
                                 v27.Character:WaitForChild(
-                                        [==[HumanoidRootPart]==]
+                                        'HumanoidRootPart'
                                 )
                         tweenInfo = TweenInfo.new(0 - 0, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
                         v293 = 2
@@ -1573,8 +1573,8 @@ function rotatePlayer()
         end
 end
 v8.addModule(
-        [==[Movement]==] ,
-        [==[Spin]==] ,
+        'Movement',
+        'Spin',
         function(v294)
                 isSpinning = v294
                 if isSpinning then
@@ -1594,7 +1594,7 @@ local function v97()
                                 if (v516 == 0) then
                                         v517 =
                                                 v410:FindFirstChildOfClass(
-                                                        [==[Humanoid]==]
+                                                        'Humanoid'
                                                 )
                                         for v642, v643 in pairs(v14:GetPlayers()) do
                                                 if (v643 ~= v17) then
@@ -1610,7 +1610,7 @@ local function v97()
                                                                                         if (v755 == (0 + 0)) then
                                                                                                 v756 =
                                                                                                         v692:FindFirstChild(
-                                                                                                                [==[HumanoidRootPart]==]
+                                                                                                                'HumanoidRootPart'
                                                                                                         )
                                                                                                 if v756 then
                                                                                                         local v780 =
@@ -1640,8 +1640,8 @@ local function v98(v295)
         v95 = v295
 end
 v8.addModule(
-        [==[Movement]==] ,
-        [==[Bhop]==] ,
+        'Movement',
+        'Bhop',
         function(v296)
                 v98(v296)
         end
@@ -1660,8 +1660,8 @@ if v17.Character then
 end
 getgenv().JumpHeight = 30
 getgenv().JumpCooldown = 0.2 - 0
-local v11 = game:GetService([==[Players]==] ).LocalPlayer
-local v101 = game:GetService([==[UserInputService]==] )
+local v11 = game:GetService('Players').LocalPlayer
+local v101 = game:GetService('UserInputService')
 local v102 = 0
 local v103
 local v104 = false
@@ -1687,7 +1687,7 @@ local function v105()
                                                                 if (v710 == (0 - 0)) then
                                                                         v711 =
                                                                                 v11.Character:FindFirstChild(
-                                                                                        [==[HumanoidRootPart]==]
+                                                                                        'HumanoidRootPart'
                                                                                 )
                                                                         if v711 then
                                                                                 v711.Velocity = Vector3.new(0 - 0, getgenv().JumpHeight, 0)
@@ -1703,7 +1703,7 @@ local function v105()
                                                 v594 =
                                                         v11.Character and
                                                         v11.Character:FindFirstChildOfClass(
-                                                                [==[Humanoid]==]
+                                                                'Humanoid'
                                                         )
                                                 v593 = 1 + 0
                                         end
@@ -1750,7 +1750,7 @@ local function v106(v300)
                                 end
                                 v562 =
                                         v11.Character and
-                                        v11.Character:FindFirstChildOfClass([==[Humanoid]==] )
+                                        v11.Character:FindFirstChildOfClass('Humanoid')
                                 v561 = 4 - 3
                         end
                         if ((355 - (5 + 349)) == v561) then
@@ -1761,7 +1761,7 @@ local function v106(v300)
                                                 if (v694 == (0 - 0)) then
                                                         v695 =
                                                                 v11.Character:FindFirstChild(
-                                                                        [==[HumanoidRootPart]==]
+                                                                        'HumanoidRootPart'
                                                                 )
                                                         if v695 then
                                                                 v695.Velocity = Vector3.new(1271 - (266 + 1005), 0 + 0, 0 - 0)
@@ -1777,14 +1777,14 @@ local function v106(v300)
         end
 end
 v8.addModule(
-        [==[Movement]==] ,
-        [==[Inf Jump]==] ,
+        'Movement',
+        'Inf Jump',
         function(v301)
                 v106(v301)
         end
 )
 local v28 =
-        game:GetService([==[ReplicatedStorage]==] ).Packages.Knit.Services.ToolService.RF
+        game:GetService('ReplicatedStorage').Packages.Knit.Services.ToolService.RF
 local v107 = false
 local v108
 local function v109()
@@ -1801,13 +1801,13 @@ local function v109()
         end
 end
 v8.addModule(
-        [==[Movement]==] ,
-        [==[Auto Sneak]==] ,
+        'Movement',
+        'Auto Sneak',
         function(v303)
                 v107 = v303
                 if v303 then
                         v108 =
-                                game:GetService([==[RunService]==] ).Stepped:Connect(
+                                game:GetService('RunService').Stepped:Connect(
                         function()
                                 if v107 then
                                         v28.ToggleSneaking:InvokeServer(true)
@@ -1839,7 +1839,7 @@ local function v110(v304)
         if v304 then
                 loadstring(
                         game:HttpGet(
-                                [==[https://pastebin.com/raw/itXpCjej]==]
+                                'https://pastebin.com/raw/itXpCjej'
                         )
                 )()
         else
@@ -1870,14 +1870,14 @@ local function v110(v304)
         end
 end
 v8.addModule(
-        [==[Render]==] ,
-        [==[TargetHud]==] ,
+        'Render',
+        'TargetHud',
         v110
 )
 local v23 = game.Players.LocalPlayer
-local v111 = Instance.new([==[ScreenGui]==] )
+local v111 = Instance.new('ScreenGui')
 v111.Parent = game.CoreGui
-local v114 = Instance.new([==[TextLabel]==] )
+local v114 = Instance.new('TextLabel')
 v114.Size = UDim2.new(905 - (250 + 655), 150, 0, 409 - 259)
 v114.Position = UDim2.new(0.53 - 0, -(93 - 33), 0.5, 2016 - (1869 + 87))
 v114.AnchorPoint = Vector2.new(0.5 - 0, 0.5)
@@ -1889,11 +1889,11 @@ v114.Visible = false
 v114.Parent = v111
 local v125 = nil
 local function v126()
-        if (v23.Character and v23.Character:FindFirstChild([==[Humanoid]==] )) then
+        if (v23.Character and v23.Character:FindFirstChild('Humanoid')) then
                 local v460 = v23.Character.Humanoid
-                v114.Text = [==[HP: ]==]  .. tostring(math.floor(v460.Health))
+                v114.Text = 'HP: ' .. tostring(math.floor(v460.Health))
         else
-                v114.Text = [==[HP: N/A]==]
+                v114.Text = 'HP: N/A'
         end
 end
 local function v127(v305)
@@ -1927,29 +1927,29 @@ local function v127(v305)
         end
 end
 v8.addModule(
-        [==[Render]==] ,
-        [==[Health]==] ,
+        'Render',
+        'Health',
         v127
 )
 v126()
-game:GetService([==[RunService]==] ).Heartbeat:Connect(v126)
+game:GetService('RunService').Heartbeat:Connect(v126)
 local v128 = Color3.fromRGB(75, 156, 255)
-local v129 = [==[AlwaysOnTop]==]
+local v129 = 'AlwaysOnTop'
 local v130 = 0.3 + 0
 local v131 = Color3.fromRGB(75 + 180, 1108 - (152 + 701), 1566 - (430 + 881))
 local v132 = 0 + 0
-local v133 = game:GetService([==[CoreGui]==] )
-local v14 = game:GetService([==[Players]==] )
+local v133 = game:GetService('CoreGui')
+local v14 = game:GetService('Players')
 local v134 = v14.LocalPlayer
 local v135 = {}
-local v136 = Instance.new([==[Folder]==] )
+local v136 = Instance.new('Folder')
 v136.Parent = v133
-v136.Name = [==[Highlight_Storage]==]
+v136.Name = 'Highlight_Storage'
 local function v139(v306)
         if (v306 == v134) then
                 return
         end
-        local v307 = Instance.new([==[Highlight]==] )
+        local v307 = Instance.new('Highlight')
         v307.Name = v306.Name
         v307.FillColor = v128
         v307.DepthMode = v129
@@ -1975,11 +1975,11 @@ local function v140()
                         for v564, v565 in ipairs(v14:GetPlayers()) do
                                 v139(v565)
                         end
-                        v135[[==[PlayerAdded]==] ] = v14.PlayerAdded:Connect(v139)
+                        v135['PlayerAdded'] = v14.PlayerAdded:Connect(v139)
                         v318 = 1 + 0
                 end
                 if (v318 == 1) then
-                        v135[[==[PlayerRemoving]==] ] =
+                        v135['PlayerRemoving'] =
                                 v14.PlayerRemoving:Connect(
                                         function(v566)
                                                 local v567 = v566.Name
@@ -2000,7 +2000,7 @@ local function v141()
         for v413, v414 in pairs(v135) do
                 if
                         (typeof(v414) ==
-                                [==[RBXScriptConnection]==] )
+                                'RBXScriptConnection')
                 then
                         v414:Disconnect()
                 end
@@ -2008,8 +2008,8 @@ local function v141()
         v135 = {}
 end
 v8.addModule(
-        [==[Render]==] ,
-        [==[Chams]==] ,
+        'Render',
+        'Chams',
         function(v319)
                 if v319 then
                         v140()
@@ -2019,19 +2019,19 @@ v8.addModule(
         end
 )
 local v142 = workspace.CurrentCamera
-local v143 = game:GetService([==[Players]==] )
+local v143 = game:GetService('Players')
 local v134 = v143.LocalPlayer
-local v144 = game:GetService([==[RunService]==] )
+local v144 = game:GetService('RunService')
 local function v145(v320)
         local v321 = 0
         while true do
                 if (v321 == 0) then
                         for v568, v569 in next, v320:GetChildren() do
-                                if (v569.ClassName == [==[Tool]==] ) then
+                                if (v569.ClassName == 'Tool') then
                                         return tostring(v569.Name)
                                 end
                         end
-                        return [==[empty]==]
+                        return 'empty'
                 end
         end
 end
@@ -2099,8 +2099,8 @@ local function v148(v322, v323)
                                 )
                         )
                         v146[v322] = {
-                                [[==[Text]==] ] = v327,
-                                [[==[Connections]==] ] = v328
+                                ['Text'] = v327,
+                                ['Connections'] = v328
                         }
                         break
                 end
@@ -2115,15 +2115,15 @@ local function v148(v322, v323)
                         local v525 = 0 + 0
                         while true do
                                 if (v525 == (0 - 0)) then
-                                        v325 = v323:WaitForChild([==[Humanoid]==] )
+                                        v325 = v323:WaitForChild('Humanoid')
                                         v326 =
                                                 v323:WaitForChild(
-                                                        [==[HumanoidRootPart]==]
+                                                        'HumanoidRootPart'
                                                 )
                                         v525 = 105 - (103 + 1)
                                 end
                                 if (v525 == (555 - (475 + 79))) then
-                                        v327 = Drawing.new([==[Text]==] )
+                                        v327 = Drawing.new('Text')
                                         v327.Visible = false
                                         v525 = 2
                                 end
@@ -2216,8 +2216,8 @@ local function v150()
         v146 = {}
 end
 v8.addModule(
-        [==[Render]==] ,
-        [==[Tool Esp]==] ,
+        'Render',
+        'Tool Esp',
         function(v332)
                 if v332 then
                         local v466 = 0 - 0
@@ -2249,12 +2249,12 @@ v8.addModule(
         end
 )
 Settings = {
-        [[==[Color]==] ] = Color3.fromRGB(142 - 67, 156, 394 - (43 + 96)),
-        [[==[Thickness]==] ] = 4 - 3,
-        [[==[Transparency]==] ] = 1 - 0,
-        [[==[AutoThickness]==] ] = true,
-        [[==[Length]==] ] = 13 + 2,
-        [[==[Smoothness]==] ] = 0.1
+        ['Color'] = Color3.fromRGB(142 - 67, 156, 394 - (43 + 96)),
+        ['Thickness'] = 4 - 3,
+        ['Transparency'] = 1 - 0,
+        ['AutoThickness'] = true,
+        ['Length'] = 13 + 2,
+        ['Smoothness'] = 0.1
 }
 toggle = false
 function ToggleESPVisibility(v333)
@@ -2274,13 +2274,13 @@ function ESP(v334)
                                                         if
                                                         (toggle and v334.Character and
                                                                 v334.Character:FindFirstChild(
-                                                                        [==[Humanoid]==]
+                                                                        'Humanoid'
                                                                 ) and
                                                                         v334.Character:FindFirstChild(
-                                                                                [==[HumanoidRootPart]==]
+                                                                                'HumanoidRootPart'
                                                                         ) and
                                                                         (v334.Character.Humanoid.Health > 0) and
-                                                                        v334.Character:FindFirstChild([==[Head]==] ))
+                                                                        v334.Character:FindFirstChild('Head'))
                                                 then
                                                         local v651 = 0 + 0
                                                         local v652
@@ -2379,7 +2379,7 @@ function ESP(v334)
                         break
                 end
                 if (v335 == (1543 - (1407 + 136))) then
-                        v336 = Drawing.new([==[Line]==] )
+                        v336 = Drawing.new('Line')
                         v336.Visible = false
                         v335 = 1888 - (687 + 1200)
                 end
@@ -2408,15 +2408,15 @@ v14.PlayerAdded:Connect(
         end
 )
 v8.addModule(
-        [==[Render]==] ,
-        [==[View Tracer]==] ,
+        'Render',
+        'View Tracer',
         function(v341)
                 ToggleESPVisibility(v341)
         end
 )
 local v23 = game.Players.LocalPlayer
 local v32 = v23.Character or v23.CharacterAdded:Wait()
-local v33 = v32:WaitForChild([==[HumanoidRootPart]==] )
+local v33 = v32:WaitForChild('HumanoidRootPart')
 local v151 = false
 local v152 = false
 local v153 = 0.5 - 0
@@ -2452,7 +2452,7 @@ local function v48(v342)
                                         v32 = v342
                                         v33 =
                                                 v32:WaitForChild(
-                                                        [==[HumanoidRootPart]==]
+                                                        'HumanoidRootPart'
                                                 )
                                         v344 = 4 - 3
                                 end
@@ -2470,12 +2470,12 @@ local function v155()
 end
 v23.CharacterAdded:Connect(
         function(v345)
-                v345:WaitForChild([==[Humanoid]==] ).Died:Connect(v155)
+                v345:WaitForChild('Humanoid').Died:Connect(v155)
         end
 )
 v8.addModule(
-        [==[Player]==] ,
-        [==[Reduce KB]==] ,
+        'Player',
+        'Reduce KB',
         function(v346)
                 local v347 = 0
                 while true do
@@ -2496,19 +2496,19 @@ local v156 = {}
 local v157 = nil
 local function v158()
         for v420, v421 in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-                if (v421:IsA([==[BasePart]==] ) and v421.CanCollide) then
+                if (v421:IsA('BasePart') and v421.CanCollide) then
                         v156[v421] = true
                         v421.CanCollide = false
                 end
         end
 end
 v8.addModule(
-        [==[Player]==] ,
-        [==[Noclip]==] ,
+        'Player',
+        'Noclip',
         function(v348)
                 if v348 then
                         v157 =
-                                game:GetService([==[RunService]==] ).Stepped:Connect(
+                                game:GetService('RunService').Stepped:Connect(
                         v158
                         )
                 else
@@ -2540,30 +2540,30 @@ v8.addModule(
                 end
         end
 )
-local v19 = game:GetService([==[ReplicatedStorage]==] )
-local v159 = game:GetService([==[Chat]==] )
+local v19 = game:GetService('ReplicatedStorage')
+local v159 = game:GetService('Chat')
 local v160 = v19.MatchValues
 local v161 = v160.RedScore
 local v162 = v160.BlueScore
 local v163 = {
-        [==[Good game]==] ,
-        [==[Gg]==] ,
-        [==[Fair match]==] ,
-        [==[gg]==] ,
-        [==[Well played]==] ,
-        [==[Nice effort]==] ,
-        [==[Good job]==] ,
-        [==[Great match]==] ,
-        [==[Well done]==] ,
-        [==[Nice game]==] ,
-        [==[Awesome play]==] ,
-        [==[Fantastic game]==] ,
-        [==[You did great]==] ,
-        [==[Excellent match]==]
+        'Good game',
+        'Gg',
+        'Fair match',
+        'gg',
+        'Well played',
+        'Nice effort',
+        'Good job',
+        'Great match',
+        'Well done',
+        'Nice game',
+        'Awesome play',
+        'Fantastic game',
+        'You did great',
+        'Excellent match'
 }
 local function v164()
         local v349 = v163[math.random(891 - (223 + 667), #v163)]
-        local v350 = [==[All]==]
+        local v350 = 'All'
         local v351 = v19.DefaultChatSystemChatEvents.SayMessageRequest
         v351:FireServer(v349, v350)
 end
@@ -2575,18 +2575,18 @@ end
 local v166
 local v167
 v8.addModule(
-        [==[Player]==] ,
-        [==[Auto GG]==] ,
+        'Player',
+        'Auto GG',
         function(v352)
                 if v352 then
                         local v469 = 0 - 0
                         while true do
                                 if ((1125 - (146 + 979)) == v469) then
                                         v166 =
-                                                v161:GetPropertyChangedSignal([==[Value]==] ):Connect(
+                                                v161:GetPropertyChangedSignal('Value'):Connect(
                                         v165
                                         )
-                                        v167 = v162:GetPropertyChangedSignal([==[Value]==] ):Connect(v165)
+                                        v167 = v162:GetPropertyChangedSignal('Value'):Connect(v165)
                                         break
                                 end
                         end
@@ -2615,26 +2615,26 @@ v8.addModule(
         end
 )
 local v168 = {
-        [==[good luck man]==] ,
-        [==[have a fun game]==] ,
-        [==[good luck]==] ,
-        [==[have fun]==] ,
-        [==[Good luck]==] ,
-        [==[Have fun]==] ,
-        [==[Gl]==]
+        'good luck man',
+        'have a fun game',
+        'good luck',
+        'have fun',
+        'Good luck',
+        'Have fun',
+        'Gl'
 }
 local function v169()
         local v353 = v168[math.random(1 + 0, #v168)]
-        v22.SayMessageRequest:FireServer(v353, [==[All]==] )
+        v22.SayMessageRequest:FireServer(v353, 'All')
 end
 local v170
 v8.addModule(
-        [==[Player]==] ,
-        [==[Auto GL]==] ,
+        'Player',
+        'Auto GL',
         function(v354)
                 if v354 then
                         v170 =
-                                v21:GetPropertyChangedSignal([==[Value]==] ):Connect(
+                                v21:GetPropertyChangedSignal('Value'):Connect(
                         function()
                                 local v538 = v21.Value
                                 if (v538 > (1509 - (504 + 1000))) then
@@ -2692,8 +2692,8 @@ end
 local v172
 local v173
 v8.addModule(
-        [==[Player]==] ,
-        [==[Fast Leave]==] ,
+        'Player',
+        'Fast Leave',
         function(v355)
                 if v355 then
                         local v470 = 0 - 0
@@ -2761,7 +2761,7 @@ local v175 = 9 - 4
 local v176 = 0 + 0
 local function v177()
         local v356 =
-                v23.Character and v23.Character:FindFirstChildOfClass([==[Humanoid]==] )
+                v23.Character and v23.Character:FindFirstChildOfClass('Humanoid')
         if v356 then
                 v356.CameraOffset = Vector3.new(v174, v175, v176)
         end
@@ -2783,8 +2783,8 @@ local function v178(v357, v358, v359)
 end
 local v44
 v8.addModule(
-        [==[Player]==] ,
-        [==[Long Neck]==] ,
+        'Player',
+        'Long Neck',
         function(v361)
                 if v361 then
                         local v474 = 0
@@ -2794,7 +2794,7 @@ v8.addModule(
                                         if not v44 then
                                                 v44 =
                                                         game:GetService(
-                                                                [==[RunService]==]
+                                                                'RunService'
                                                         ).RenderStepped:Connect(v177)
                                         end
                                         break
@@ -2842,13 +2842,13 @@ v23.CharacterAdded:Connect(
                                                 end
                                                 if
                                                         v8.isModuleEnabled(
-                                                                [==[Player]==] ,
-                                                                [==[Long Neck]==]
+                                                                'Player',
+                                                                'Long Neck'
                                                         )
                                                 then
                                                         v44 =
                                                                 game:GetService(
-                                                                        [==[RunService]==]
+                                                                        'RunService'
                                                                 ).RenderStepped:Connect(v177)
                                                 end
                                                 break
@@ -2868,7 +2868,7 @@ local function v182()
                 for v476, v477 in ipairs(v179) do
                         if (v423.UserId == v477) then
                                 v17:Kick(
-                                        [==[Player has been kicked due to an admin joining the game.]==]
+                                        'Player has been kicked due to an admin joining the game.'
                                 )
                         end
                 end
@@ -2882,7 +2882,7 @@ local function v183()
                                 for v581, v582 in ipairs(v179) do
                                         if (v424.UserId == v582) then
                                                 v17:Kick(
-                                                        [==[Player forced kicked due to an admin joining the game.]==]
+                                                        'Player forced kicked due to an admin joining the game.'
                                                 )
                                         end
                                 end
@@ -2891,8 +2891,8 @@ local function v183()
                 )
 end
 v8.addModule(
-        [==[Player]==] ,
-        [==[Admin Alert]==] ,
+        'Player',
+        'Admin Alert',
         function(v364)
                 local v365 = 0 + 0
                 while true do
@@ -2916,18 +2916,18 @@ v8.addModule(
         end
 )
 v8.addModule(
-        [==[Player]==] ,
-        [==[Cape]==] ,
+        'Player',
+        'Cape',
         function(v366)
                 local v367 = v27.Character
                 local function v368()
-                        local v425 = v367:WaitForChild([==[Humanoid]==] )
+                        local v425 = v367:WaitForChild('Humanoid')
                         local v426 =
                                 ((v425.RigType == Enum.HumanoidRigType.R15) and
-                                        v367:WaitForChild([==[UpperTorso]==] )) or
-                                v367:WaitForChild([==[Torso]==] )
-                        local v427 = Instance.new([==[Part]==] )
-                        v427.Name = [==[Cape]==]
+                                        v367:WaitForChild('UpperTorso')) or
+                                v367:WaitForChild('Torso')
+                        local v427 = Instance.new('Part')
+                        v427.Name = 'Cape'
                         v427.Parent = v367
                         v427.Anchored = false
                         v427.CanCollide = false
@@ -2936,10 +2936,10 @@ v8.addModule(
                         v427.Size = Vector3.new(0.2 + 0, 0.2 + 0, 0.2 - 0)
                         v427.Transparency = 720 - (254 + 466)
                         v427.BrickColor = BrickColor.new(Color3.fromRGB(635 - (544 + 16), 156, 810 - 555))
-                        local v438 = Instance.new([==[BlockMesh]==] )
+                        local v438 = Instance.new('BlockMesh')
                         v438.Parent = v427
                         v438.Scale = Vector3.new(637 - (294 + 334), 17.5, 253.08 - (236 + 17))
-                        local v441 = Instance.new([==[Motor]==] )
+                        local v441 = Instance.new('Motor')
                         v441.Parent = v427
                         v441.Part0 = v427
                         v441.Part1 = v426
@@ -3016,7 +3016,7 @@ v8.addModule(
                         local v451
                         while true do
                                 if (v450 == (1817 - (772 + 1045))) then
-                                        v451 = v367:FindFirstChild([==[Cape]==] )
+                                        v451 = v367:FindFirstChild('Cape')
                                         if v451 then
                                                 v451:Destroy()
                                         end
@@ -3025,7 +3025,7 @@ v8.addModule(
                         end
                 end
                 if v366 then
-                        if not v367:FindFirstChild([==[Cape]==] ) then
+                        if not v367:FindFirstChild('Cape') then
                                 v368()
                         end
                 else
@@ -3040,8 +3040,8 @@ function roundToWhole(v370)
         return math.floor(v370 + 0.5)
 end
 v8.addModule(
-        [==[World]==] ,
-        [==[Block Nuker]==] ,
+        'World',
+        'Block Nuker',
         function(v371)
                 local v372 = 0
                 while true do
@@ -3066,7 +3066,7 @@ v8.addModule(
                                                                                                         for v772, v773 in ipairs(workspace.Map:GetChildren()) do
                                                                                                                 if
                                                                                                                        (v773.Name ==
-                                                                                                                       [==[Block]==] )
+                                                                                                                       'Block')
                                                                                                                 then
                                                                                                                        local v787 = 0
                                                                                                                        local v788
@@ -3121,7 +3121,7 @@ v8.addModule(
                                                                                                                        )
                                                                                                                        v784 =
                                                                                                                        game:GetService(
-                                                                                                                       [==[ReplicatedStorage]==]
+                                                                                                                       'ReplicatedStorage'
                                                                                                                        ).Packages.Knit.Services.ToolService.RF.BreakBlock
                                                                                                                        v782 = 1
                                                                                                                        end
@@ -3130,7 +3130,7 @@ v8.addModule(
                                                                                                                        v784:InvokeServer(v783)
                                                                                                                        else
                                                                                                                        warn(
-                                                                                                                       [==[BreakBlock remote function not found]==]
+                                                                                                                       'BreakBlock remote function not found'
                                                                                                                        )
                                                                                                                        end
                                                                                                                        break
@@ -3181,7 +3181,7 @@ local function v186(v373)
                                 v185 = v376.GlobalShadows
                         end
                         for v583, v584 in ipairs(v375:GetDescendants()) do
-                                if v584:IsA([==[BasePart]==] ) then
+                                if v584:IsA('BasePart') then
                                         if v373 then
                                                 v184[v584] = v584.Material
                                                 v584.Material = Enum.Material.Wood
@@ -3205,20 +3205,20 @@ local function v186(v373)
                         break
                 end
                 if (v374 == 0) then
-                        v375 = game:GetService([==[Workspace]==] )
-                        v376 = game:GetService([==[Lighting]==] )
+                        v375 = game:GetService('Workspace')
+                        v376 = game:GetService('Lighting')
                         v374 = 1
                 end
         end
 end
 v8.addModule(
-        [==[World]==] ,
-        [==[Clean Game]==] ,
+        'World',
+        'Clean Game',
         v186
 )
 local function v187()
-        local v377 = Instance.new([==[Part]==] , workspace)
-        v377.Name = [==[jesusWalk]==]
+        local v377 = Instance.new('Part', workspace)
+        v377.Name = 'jesusWalk'
         v377.Size = Vector3.new(2772 - (267 + 458), 0.009 + 0, 3882 - 1863)
         v377.Position = Vector3.new(-80.5, -(943.005 - (667 + 151)), -(1743.5 - (1410 + 87)))
         v377.CanCollide = false
@@ -3256,21 +3256,21 @@ local function v189(v386)
         end
 end
 v8.addModule(
-        [==[World]==] ,
-        [==[Anti Void]==] ,
+        'World',
+        'Anti Void',
         function(v387)
                 v189(v387)
         end
 )
 local v190 = nil
 local v191 = {
-        [[==[SapphireSky]==] ] = {
-                [[==[SkyboxBk]==] ] = [==[http://www.roblox.com/asset/?id=14951188406]==] ,
-                [[==[SkyboxDn]==] ] = [==[http://www.roblox.com/asset/?id=14951206287]==] ,
-                [[==[SkyboxFt]==] ] = [==[http://www.roblox.com/asset/?id=14951198332]==] ,
-                [[==[SkyboxLf]==] ] = [==[http://www.roblox.com/asset/?id=14951201317]==] ,
-                [[==[SkyboxRt]==] ] = [==[http://www.roblox.com/asset/?id=14951192477]==] ,
-                [[==[SkyboxUp]==] ] = [==[http://www.roblox.com/asset/?id=14951204134]==]
+        ['SapphireSky'] = {
+                ['SkyboxBk'] = 'http://www.roblox.com/asset/?id=14951188406',
+                ['SkyboxDn'] = 'http://www.roblox.com/asset/?id=14951206287',
+                ['SkyboxFt'] = 'http://www.roblox.com/asset/?id=14951198332',
+                ['SkyboxLf'] = 'http://www.roblox.com/asset/?id=14951201317',
+                ['SkyboxRt'] = 'http://www.roblox.com/asset/?id=14951192477',
+                ['SkyboxUp'] = 'http://www.roblox.com/asset/?id=14951204134'
         }
 }
 local function v192(v388)
@@ -3278,7 +3278,7 @@ local function v192(v388)
                 local v481 = 0 - 0
                 while true do
                         if (v481 == (0 - 0)) then
-                                v190 = Instance.new([==[Sky]==] )
+                                v190 = Instance.new('Sky')
                                 v190.Parent = game.Lighting
                                 break
                         end
@@ -3327,24 +3327,24 @@ local function v193()
 end
 local v95 = true
 if v95 then
-        v192([==[SapphireSky]==] )
+        v192('SapphireSky')
 else
         v193()
 end
 v8.addModule(
-        [==[World]==] ,
-        [==[Skybox]==] ,
+        'World',
+        'Skybox',
         function(v390)
                 if v390 then
-                        v192([==[SapphireSky]==] )
+                        v192('SapphireSky')
                 else
                         v193()
                 end
         end
 )
 v8.addModule(
-        [==[World]==] ,
-        [==[Heavy Jump]==] ,
+        'World',
+        'Heavy Jump',
         function(v391)
                 if v391 then
                         workspace.Gravity = 1911 - (459 + 1307)
@@ -3355,8 +3355,8 @@ v8.addModule(
 )
 local v194 = nil
 v8.addModule(
-        [==[Misc]==] ,
-        [==[Anti Afk]==] ,
+        'Misc',
+        'Anti Afk',
         function(v392)
                 if v392 then
                         local v487 = 1870 - (474 + 1396)
@@ -3387,11 +3387,11 @@ v8.addModule(
                 end
         end
 )
-local v111 = game.Players.LocalPlayer.PlayerGui.MainGui[[==[BRIDGE DUEL]==] ]
+local v111 = game.Players.LocalPlayer.PlayerGui.MainGui['BRIDGE DUEL']
 v111.Visible = false
 v8.addModule(
-        [==[Misc]==] ,
-        [==[Show Stats]==] ,
+        'Misc',
+        'Show Stats',
         function(v393)
                 if v393 then
                         v111.Visible = true
@@ -3401,8 +3401,8 @@ v8.addModule(
         end
 )
 v8.addModule(
-        [==[Misc]==] ,
-        [==[Rejoin]==] ,
+        'Misc',
+        'Rejoin',
         function()
                 local v394 = 0
                 local v395
@@ -3422,21 +3422,21 @@ v8.addModule(
                         end
                         if (v394 == (0 + 0)) then
                                 v395 =
-                                        game:GetService([==[TeleportService]==] )
-                                v396 = game:GetService([==[Players]==] )
+                                        game:GetService('TeleportService')
+                                v396 = game:GetService('Players')
                                 v394 = 2 - 1
                         end
                 end
         end
 )
 v8.addModule(
-        [==[Misc]==] ,
-        [==[Kill Script]==] ,
+        'Misc',
+        'Kill Script',
         function()
                 v8.KillScript()
                 v111.Visible = true
         end
 )
 print(
-        [==[Right Shift To Open/Close GUI.]==]
+        'Right Shift To Open/Close GUI.'
 )
